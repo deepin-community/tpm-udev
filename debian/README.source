@@ -1,0 +1,8 @@
+tpm-udev for Debian
+------------------------
+
+This is the package contains udev rules and create tpm user
+for all tpm related packages. Please consider adding yourself to Uploaders
+if you are maintaining tpm related packages.
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sat, 07 Sep 2019 01:44:09 +0800

@@ -1,0 +1,17 @@
+Source: tpm-udev
+Section: admin
+Priority: optional
+Maintainer: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Uploaders: Mario Limonciello <superm1@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/debian/tpm-udev
+Vcs-Git: https://salsa.debian.org/debian/tpm-udev.git
+
+Package: tpm-udev
+Architecture: all
+Multi-Arch: foreign
+Depends: adduser, udev, ${misc:Depends}
+Description: udev rules for TPM modules
+ This package provides udev rules for the TPM modules. Both TPM1 or TPM2 need
+ this package to be installed to provide proper permissions of the TPM.

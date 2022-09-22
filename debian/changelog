@@ -1,0 +1,34 @@
+tpm-udev (0.5) unstable; urgency=low
+
+  [ Ying-Chun Liu (PaulLiu) ]
+  * debian/control: add udev to Depends (Closes: #959153)
+  * Bump Standards-Version to 4.5.0: nothing needs to be changed.
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Tue, 01 Dec 2020 00:59:02 +0800
+
+tpm-udev (0.4) unstable; urgency=medium
+
+  * Mark as multi-arch to fix install issues (Closes: #946072)
+
+ -- Mario Limonciello <mario.limonciello@dell.com>  Tue, 03 Dec 2019 15:50:49 -0600
+
+tpm-udev (0.3) unstable; urgency=low
+
+  [ Ying-Chun Liu (PaulLiu) ]
+  * Fix fail to install in systemd-nspawn container (Closes: #945362)
+  * Add Mario Limonciello <superm1@gmail.com> as co-maintainer
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sun, 24 Nov 2019 16:03:50 +0800
+
+tpm-udev (0.2) unstable; urgency=low
+
+  [ Ying-Chun Liu (PaulLiu) ]
+  * Bump Standards-Version to 4.4.1: nothing needs to be changed.
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Tue, 12 Nov 2019 15:58:24 +0800
+
+tpm-udev (0.1) unstable; urgency=low
+
+  * Initial Release. (Closes: #940807)
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Sat, 07 Sep 2019 01:44:09 +0800
