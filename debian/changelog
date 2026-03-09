@@ -1,3 +1,33 @@
+tpm-udev (0.8) unstable; urgency=medium
+
+  [ Luca Boccassi ]
+  * Import fix for changing permissions in containers from Ubuntu (LP: #1900087)
+
+ -- Mario Limonciello <superm1@gmail.com>  Tue, 24 Feb 2026 23:49:55 -0600
+
+tpm-udev (0.7) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Luca Boccassi ]
+  * Do not depend on udev (Closes: #1086906)
+  * Depend on libtss2-fapi1t64 instead of shelling out in postinst
+    (Closes: #1056665)
+  * Drop priority from d/control, now defaults to optional
+  * Bump Standards-version to 4.7.3
+
+ -- Mario Limonciello <superm1@gmail.com>  Tue, 24 Feb 2026 23:49:49 -0600
+
+tpm-udev (0.6) unstable; urgency=low
+
+  * debian/tpm-udev.udev: Allow tpm devices to be used as systemd dependencies
+    (Closes: #995925)
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Wed, 26 Jan 2022 02:03:40 +0800
+
 tpm-udev (0.5) unstable; urgency=low
 
   [ Ying-Chun Liu (PaulLiu) ]
