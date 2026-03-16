@@ -1,3 +1,9 @@
+tpm-udev (0.8deepin1) unstable; urgency=medium
+
+  * Revert 64-bit time_t changes.
+
+ -- lichenggang <lichenggang@uniontech.com>  Mon, 16 Mar 2026 14:15:00 +0800
+
 tpm-udev (0.8) unstable; urgency=medium
 
   [ Luca Boccassi ]
